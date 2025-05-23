@@ -53,6 +53,11 @@ export default function UsersPage() {
   return (
     <div>
       <h2>Select a User</h2>
+      <div>
+  <a href="/reset-all" class="button">Reset All Data</a>
+  <br />
+  <a href="/delete-sample-player" class="button">Delete Sample Player</a>
+</div>
 
       <form onSubmit={handleAdd} style={{ marginBottom: '1em' }}>
         <input

@@ -15,6 +15,8 @@ export default defineConfig({
       '/events':            { target: 'http://localhost:5181', changeOrigin: true },
       '/tags':              { target: 'http://localhost:5181', changeOrigin: true },
       '/relationship-tags': { target: 'http://localhost:5181', changeOrigin: true },
+      '/reset-all': { target: 'http://localhost:5181', changeOrigin: true },
+      '/delete-sample-player': { target: 'http://localhost:5181', changeOrigin: true },
     }
   }
 });
